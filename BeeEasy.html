@@ -11,52 +11,15 @@
     integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
   <title>BeeEasy</title>
-  <style>
-    body {
-      background-color: rgb(243, 238, 172);
-      height: 100px;
-      width: 100%;
-    }
+  <link rel="stylesheet" href="bootstrap.css">
 
-    .navbar {
-      background-color: darkgoldenrod;
-    }
-
-    .btn {
-      color: white;
-      outline-style: auto;
-    }
-
-    .btn:hover {
-      background-color: aliceblue;
-      color: darkgoldenrod;
-      font-weight: bold;
-    }
-
-    .nav-item:hover {
-      color: blueviolet;
-    }
-
-    .breadcrumb {
-      background-color: lightgray;
-    }
-
-    a {
-      text-decoration: none;
-      color: black;
-    }
-
-    a:hover {
-      color: darkblue;
-    }
-  </style>
 </head>
 
 <body>
 
   <nav class="navbar navbar-expand-lg navbar-dark">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#">Bee Easy</a>
+      <a class="navbar-brand" href="#" style="letter-spacing: 2px;">BeeEasy 🐝</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -113,47 +76,10 @@
       <li class="breadcrumb-item"><a href="https://www.livehindustan.com/tags/ashta">News</a></li>
       <li class="breadcrumb-item"><a href="#">Updates</a></li>
       <li class="breadcrumb-item active" aria-current="page">Education <h9><span
-            class="badge rounded-pill bg-danger">New</span></h9>
+            class="badge rounded-pill bg-danger">yet to launch</span></h9>
       </li>
     </ol>
   </nav>
-
-  <div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel"
-    tabindex="-1">
-    <div class="modal-dialog modal-dialog-centered">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalToggleLabel">Know Here</h5>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-        </div>
-        <div class="modal-body">
-          Work in Progress..
-        </div>
-        <div class="modal-footer">
-          <button class="btn btn-primary" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal">Next</button>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="modal fade" id="exampleModalToggle2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2"
-    tabindex="-1">
-    <div class="modal-dialog modal-dialog-centered">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalToggleLabel2">Know finally here</h5>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-        </div>
-        <div class="modal-body">
-          Visit us again for this.
-        </div>
-        <div class="modal-footer">
-          <button class="btn btn-primary" data-bs-target="#exampleModalToggle" data-bs-toggle="modal">Back to
-            first</button>
-        </div>
-      </div>
-    </div>
-  </div>
-  <a class="btn btn-primary" data-bs-toggle="modal" href="#exampleModalToggle" role="button">Open first modal</a>
   <div class="container-fluid">
     <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-bs-ride="carousel">
       <div class="carousel-indicators">
@@ -170,7 +96,7 @@
             src="https://images.unsplash.com/photo-1444723121867-7a241cacace9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
             class="d-block w-100" alt="...">
           <div class="carousel-caption d-none d-md-block">
-            <h5>Smart City</h5>
+            <h5 style="letter-spacing: 2px; color: white;">Smart City</h5>
             <p>Soon going to become the Smart City</p>
           </div>
         </div>
@@ -179,7 +105,7 @@
             src="https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1194&q=80"
             class="d-block w-100" alt="...">
           <div class="carousel-caption d-none d-md-block">
-            <h5>Education Standards</h5>
+            <h5 style="letter-spacing: 2px; color: white;">Education Standards</h5>
             <p>Successful in the field of Education</p>
           </div>
         </div>
@@ -188,7 +114,7 @@
             src="https://images.unsplash.com/photo-1523731407965-2430cd12f5e4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
             class="d-block w-100" alt="...">
           <div class="carousel-caption d-none d-md-block">
-            <h5>Living Standard</h5>
+            <h5 style="letter-spacing: 2px; color: white;">Living Standard</h5>
             <p>Living nature and standard is outstanding</p>
           </div>
         </div>
@@ -206,17 +132,14 @@
     </div>
   </div>
 
-
-  <div class="accordion" id="accordionExample">
+  <div class="accordion" id="accordionPanelsStayOpenExample">
     <div class="accordion-item">
-      <h2 class="accordion-header" id="headingOne">
-        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
-          aria-expanded="true" aria-controls="collapseOne">
+      <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
           <a href="https://vitbhopal.ac.in/">Vellore Institute of Technology, Bhopal Madhya Pradesh</a>
         </button>
       </h2>
-      <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
-        data-bs-parent="#accordionExample">
+      <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
         <div class="accordion-body">
           <strong>VIT Bhopal</strong> has made a mark in higher education as one of the best engineering institutes in
           Central India. The
@@ -232,92 +155,106 @@
         </div>
       </div>
     </div>
-    <div class="accordion" id="accordionExample">
-      <div class="accordion-item">
-        <h2 class="accordion-header" id="headingTwo">
-          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-            data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-            <a href="http://www.pushpaschool.com/">Pushpa Higher Secondary School, Ashta Madhya Pradesh</a>
-          </button>
-        </h2>
-        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
-          data-bs-parent="#accordionExample">
-          <div class="accordion-body">
-            <strong>Pushpa H.S. SCHOOL</strong> was begun to meet the growing needs of a good School at Ashta town. It
-            is managed by the
-            Archdiocese of Bhopal, with the Archbishop, Most Rev. Dr. Leo Cornelio, as its Chairman.
-            <div id="collapseTwo" class="according-collapse collapse show" aria-labelledby="headingOne"
-              data-bs-parent="#accordingExample">
-              <div class="according-body">
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+          <a href="http://www.pushpaschool.com/">Pushpa Higher Secondary School, Ashta Madhya Pradesh</a>
+        </button>
+      </h2>
+      <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+        <div class="accordion-body">
+          <strong>Pushpa Higher Secondary School</strong> was begun to meet the growing needs of a good School at Ashta town. It
+          is managed by the
+          Archdiocese of Bhopal, with the Archbishop, Most Rev. Dr. Leo Cornelio, as its Chairman. It's the only and famous CBSE board school in Ashta.
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+          <a href="https://dwpsashta.com/">Delhi World Public School, Ashta Madhya Pradesh</a>
+        </button>
+      </h2>
+      <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+        <div class="accordion-body">
+          Delhi World Public Schools are a chain of Schools under the aegis of the Delhi World Foundation including luminaries like Salman Khurshid – Former External Affairs Minister, Government of India; Montek Singh Ahluwalia – Former Deputy Chairman, Planning Commission; Chintamani Rao – Former Vice Chairman, Times Broadcasting Company; CA. Rajiv Soni- President of the Dipsite Association; Dr, Rakshanda Jalil, Historian, Sharmila Tagore, Actor and several others.
 
-              </div>
-            </div>
-          </div>
-          <div class="accordion" id="accordionExample">
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="headingTwo">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                  data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+          This group spearheads a mission to achieve excellence through cutting edge learning tools combined with the human touch and the unique Guru – Shishya ( Teacher – Pupil ) bond, to integrate the best ideas in education taken from all good practices in India and around the World.
+        </div>
+      </div>
+    </div>
+  </div>
+<br>
 
-            </div>
-          </div>
+  <div class="card bg-light text-black">
+    <img src="https://lh5.googleusercontent.com/p/AF1QipNZhvwzJn8YVtyHdkmeDy_UXeEea5_yFWBhvjsS=w1080-k-no" class="card-img" alt="...">
+    <div class="card-img-overlay">
+      <h5 class="card-title" style="letter-spacing: 2px; color: black;">Shankar Mandir Ashta</h5>
+      <p class="card-text">This is one of the places to visit if you are near by. Evening on a Friday is
+        just a
+        great experience. The fervour, commitment and community spirit is just stunning. For a South Indian
+        who
+        is used to standing away from God and praying in silence, this is just a great experience. The
+        intensity
+        of people who are in prayer is an eye opener. Was told that all days the place is calm and serene.
+        Will
+        come back and see for sure</p>
+      <p class="card-text">Last updated 1 month ago</p>
+    </div>
+  </div>
 
-          <div class="card border-primary mb-3" style="max-width: 540px;">
-            <div class="row g-0">
-              <div class="col-md-4">
-                <img src="https://lh5.googleusercontent.com/p/AF1QipNZhvwzJn8YVtyHdkmeDy_UXeEea5_yFWBhvjsS=w1080-k-no"
-                  class="img-fluid rounded-start" alt="...">
-              </div>
-              <div class="col-md-8">
-                <div class="card-body">
-                  <h5 class="card-title">Shankar Mandir Ashta</h5>
-                  <p class="card-text">This is one of the places to visit if you are near by. Evening on a Friday is
-                    just a
-                    great experience. The fervour, commitment and community spirit is just stunning. For a South Indian
-                    who
-                    is used to standing away from God and praying in silence, this is just a great experience. The
-                    intensity
-                    of people who are in prayer is an eye opener. Was told that all days the place is calm and serene.
-                    Will
-                    come back and see for sure</p>
-                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                  <a href="https://in.worldorgs.com/catalog/ashta/golf-course/shankar-mandir-ashta#"
-                    class="btn btn-primary">Got it</a>
-                </div>
-              </div>
-            </div>
-          </div>
+  <!-- Remove the container if you want to extend the Footer to full width. -->
+<div class="container my-5">
 
-          <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasBottom"
-            aria-controls="offcanvasBottom">Open Now</button>
+  <footer>
+  <div class="container p-4">
+    <div class="row">
+      <div class="col-lg-6 col-md-12 mb-4">
+        <h5 class="mb-3" style="letter-spacing: 2px; color: #818963;">BeeEasy 🐝</h5>
+        <p>
+          We hope you found something that sparked interest on our website. We would be very happy to answer any
+          questions or quote a price on equipment or design. Please visit us again for future updates.
 
-          <div class="offcanvas offcanvas-bottom" tabindex="-1" id="offcanvasBottom"
-            aria-labelledby="offcanvasBottomLabel">
-            <div class="offcanvas-header">
-              <h5 class="offcanvas-title" id="offcanvasBottomLabel">Thank You</h5>
-              <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
-                aria-label="Close"></button>
-            </div>
-            <div class="offcanvas-body small">
-              We hope you found something that sparked interest on our website. We would be very happy to answer any
-              questions or quote a price on equipment or design. Please check back for future updates.
+        </p>
+      </div>
+      <div class="col-lg-3 col-md-6 mb-4">
+        <h5 class="mb-3" style="letter-spacing: 2px; color: #818963;">Contact Us 🔰</h5>
+        <ul class="list-unstyled mb-0">
+          <li class="mb-1">
+            <a href="#!" style="color: #4f4f4f;">Instagram</a>
+          </li>
+          <li class="mb-1">
+            <a href = "mailto: beeasy@gmail.com." style="color: #4f4f4f;">Send Email</a>
+          </li>
+          <li class="mb-1">
+            <a href="+917987956779" style="color: #4f4f4f;">Call</a>
+          </li>
+        </ul>
+      </div>
+      <div class="col-lg-3 col-md-6 mb-4">
+        <h5 class="mb-1" style="letter-spacing: 2px; color: #818963;">Working Time 🕘</h5>
+        <table class="table" style="color: #4f4f4f; border-color: #666;">
+          <tbody>
+            <tr>
+              <td>Mon - Fri:</td>
+              <td>8am - 9pm</td>
+            </tr>
+            <tr>
+              <td>Sat - Sun:</td>
+              <td>8am - 1am</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+    © 2022 Copyright:
+    <a class="text-dark" href="#">BeeEasy.com</a>
+  </div>
+</footer>
 
-              <br>
-              <br>
-              Our facilities are located at:<br>
-              <br>
-              Ashta, Madhya Pradesh 466116 Call us:- +91 12345-67890
-            </div>
-          </div>
-          <div class="spinner-grow text-primary" role="status">
-            <span class="visually-hidden">Loading...</span>
-          </div>
-
-
-
-          <!-- Optional JavaScript; choose one of the two! -->
-
-          <!-- Option 1: Bootstrap Bundle with Popper -->
+</div>    
           <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
             integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
             crossorigin="anonymous"></script>
